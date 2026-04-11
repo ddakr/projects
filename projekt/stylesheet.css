@@ -1,20 +1,47 @@
-.container
-{
-display: flex;
-background-color: black;
-max-height: 9000px;
+body {
+    margin: 0;
+    background-color: #1a1a1a;
+}
 
-}
-.karta
-{
+.container {
     display: flex;
-    color: white;
     align-items: center;
-    width: 1000px;
-    height: 953px;
-    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
 }
-body
-{
+
+.karta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.karta:hover {
+    transform: scale(1.05);
+    background-color: #3a3a3a;
+}
+
+.karta img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.karta h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
 }
