@@ -11,7 +11,7 @@ body {
     gap: 20px;
     padding: 20px;
 }
-
+    první sekce
 .karta {
     display: flex;
     flex-direction: column;
@@ -39,6 +39,107 @@ body {
 }
 
 .karta h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.karta1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.karta1:hover {
+    transform: scale(1.05);
+    background-color: #3a3a3a;
+}
+
+.karta1 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.karta1 h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.karta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.karta2:hover {
+    transform: scale(1.05);
+    background-color: #3a3a3a;
+}
+
+.karta2 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.karta2 h1 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.karta3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.karta3:hover {
+    transform: scale(1.05);
+    background-color: #3a3a3a;
+}
+
+.karta3 img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.karta3 h1 {
     color: white;
     font-size: 18px;
     font-family: Arial, sans-serif;
