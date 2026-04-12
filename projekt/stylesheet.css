@@ -11,7 +11,7 @@ body {
     gap: 20px;
     padding: 20px;
 }
-    první sekce
+    /*první sekce*/
 .karta {
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
 
 .karta:hover {
     transform: scale(1.05);
-    background-color: #3a3a3a;
+    background-color: orange;
 }
 
 .karta img {
@@ -45,7 +45,7 @@ body {
     text-align: center;
     margin: 0;
 }
-
+    /*druhá sekce*/
 .karta1 {
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 
 .karta1:hover {
     transform: scale(1.05);
-    background-color: #3a3a3a;
+    background-color: green;
 }
 
 .karta1 img {
@@ -79,7 +79,7 @@ body {
     text-align: center;
     margin: 0;
 }
-
+    /*třetí sekce*/
 .karta2 {
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ body {
 
 .karta2:hover {
     transform: scale(1.05);
-    background-color: #3a3a3a;
+    background-color: blue;
 }
 
 .karta2 img {
@@ -113,6 +113,7 @@ body {
     text-align: center;
     margin: 0;
 }
+    /*čtvrtá sekce*/
 .karta3 {
     display: flex;
     flex-direction: column;
@@ -128,7 +129,7 @@ body {
 
 .karta3:hover {
     transform: scale(1.05);
-    background-color: #3a3a3a;
+    background-color: red;
 }
 
 .karta3 img {
@@ -145,4 +146,51 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
+}
+/* prodej dilu */
+/* prvni stranka */
+/* navbar vpravo */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a2a;
+    padding: 10px 20px;
+}
+
+.nav-vlevo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-vpravo {
+    display: flex;
+    gap: 10px;
+}
+
+.tecky {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 28px;
+    color: black;
+}
+
+.buttonsV {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.buttonsV:hover, .tecky:hover {
+    background-color: #ffbf00;
+    transform: scale(1.05);
+    transition: 0.2s;
 }
