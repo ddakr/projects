@@ -158,39 +158,74 @@ body {
     padding: 10px 20px;
 }
 
-.nav-vlevo {
-    display: flex;
-    align-items: center;
+.true-navbar{
+color: rgb(11, 3, 3);
+height: 4rem;
+width: 4rem;
+font-size: 2em;
+cursor: pointer;
+justify-content: center;
+display: flex;
+align-items: center;
+background-color: gray;
+border-radius: 0.2rem;
+border: 1px solid black; 
 }
-
-.nav-vpravo {
-    display: flex;
-    gap: 10px;
+.menu{
+    color: #1a1a1a;
 }
+.menu :hover
+{
+    color: white;
+}
+.dropdown{
+    top: 2em;
+    padding: 1em;
+    position: absolute;
+    display: none;
 
-.tecky {
-    width: 50px;
-    height: 50px;
+}
+.dropdown :hover{
+    display: block;
     background-color: orange;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 28px;
-    color: black;
+}
+.dropdown a{
+    color: white;
+    display: block;
+    text-decoration: none;
 }
 
-.buttonsV {
-    width: 50px;
-    height: 50px;
-    background-color: orange;
-    border: none;
-    border-radius: 8px;
+.logo {
+    padding: 1rem 1.5rem;
+    border-radius: 0.2em;
+    background-color: gray;
+    border: 1px solid black; 
+}
+.logo img {
+    height: 5em;
+    width: 5em;
+
+}
+.nav-menu{
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 0.2rem;
+    border: 1px solid black; 
+
+}
+.icony
+{
+    gap: 1em;
+    display: flex;
+    padding: 1em 1.5em;
+}
+.icona{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.5em;
+
 }
 
-.buttonsV:hover, .tecky:hover {
-    background-color: #ffbf00;
-    transform: scale(1.05);
-    transition: 0.2s;
+.icona :hover{
+    color: White;
 }
+ 
