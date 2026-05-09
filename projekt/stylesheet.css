@@ -178,23 +178,60 @@ border: 1px solid black;
 {
     color: white;
 }
-.dropdown{
-    top: 2em;
-    padding: 1em;
+.dropdown {
     position: absolute;
+    top: 7rem;
+    left: 0.5rem;
+    background-color: #2a2a2a;
+    border-radius: 0.5rem;
+    padding: 0.5em;
     display: none;
+    z-index: 999;
+}
 
-}
-.dropdown :hover{
+.dropdown.active {
     display: block;
-    background-color: orange;
 }
-.dropdown a{
+
+.dropdown a {
     color: white;
     display: block;
     text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.3rem;
 }
 
+.dropdown a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.dropdown2{
+    position: absolute;
+    top: 7rem;
+    left: 8.3rem;
+    background-color: #2a2a2a;
+    border-radius: 0.5rem;
+    padding: 0.5em;
+    display: none;
+    z-index: 999;
+}
+
+.dropdown2.active {
+    display: block;
+}
+.dropdown2 a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.dropdown2 a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.3rem;
+}
 .logo {
     padding: 1rem 1.5rem;
     border-radius: 0.2em;
@@ -228,4 +265,5 @@ border: 1px solid black;
 .icona :hover{
     color: White;
 }
+
  
