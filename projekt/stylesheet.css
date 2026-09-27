@@ -1,6 +1,74 @@
-.bum 
-{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  gap: 1em; 
+  padding: 0.5em;
+  color: #9b9999ce;
+
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  font-size: 1.8em;
+  margin-right: 1em;
+
+}
+
+.cart:hover {
+  cursor: pointer;
+  color: #dad1d1;
+}   
+
+.element:hover {
+  cursor: pointer;
+  color: #dad1d1;
+}
+
+.logo img {
+    width: 4m;
+    height: auto;
+    border-radius: 100%;
+}
+
+.section {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.text h6 {
+  font-size: 1.5em;
+  color: #0e0a0ace;
+  margin-bottom: 0.5em;
+  
+}
+
+.text h1 {
+  font-size: 5em;
+  color: #0e0a0ace;
+  margin-bottom: 0.5em;
+  font-weight: bold;
 }
